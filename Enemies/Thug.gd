@@ -15,6 +15,8 @@ func _process(_delta):
 		$Sprite3D.scale.x = -1;
 	else:
 		$Sprite3D.scale.x = 1;
+	if (dp.length() < 1.1):
+		target.damage();
 
 func damage():
 	queue_free();

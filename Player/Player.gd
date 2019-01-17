@@ -3,8 +3,16 @@ extends KinematicBody
 var speed = 2;
 var Bullet = preload("res://Player/Bullet.tscn");
 var facing = Vector3(1, 0, 0);
+var dead = false;
+
+func _process(_delta):
+	if (dead):
+		$Sprite.frame = 1;
+	else:
+		$Sprite.frame = 0;
 
 func _physics_process(_delta):
+	if (dead): return;
 	execute_movement();
 	if Input.is_action_just_pressed("shoot"):
 		var bullet = Bullet.instance();
@@ -23,3 +31,6 @@ func execute_movement():
 	move.z = -int(up)+int(down);
 	move = move_and_slide(move.normalized() * speed);
 	if (move.length() > 0): facing = move;
+
+func damage():
+	dead = true;

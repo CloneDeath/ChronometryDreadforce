@@ -15,6 +15,21 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7805, 0, -6.24392 )
 [node name="Thug3" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.54896, 0, 1.7668 )
 
+[node name="Thug4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9773, 0, 5.23564 )
+
+[node name="Thug5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.87528, 0, 1.57414 )
+
+[node name="Thug6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.66453, 0, 6.06196 )
+
+[node name="Thug7" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.25429, 0, -3.24278 )
+
+[node name="Thug8" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.33097, 0, 1.2254 )
+
 [node name="Car" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9259, 0, -2.83841 )
 

@@ -10,28 +10,34 @@
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.97508, 0, -6.0162 )
 
 [node name="Thug2" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7805, 0, -6.24392 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5821, 0, -10.1678 )
 
 [node name="Thug3" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.54896, 0, 1.7668 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.46733, 0, -7.36881 )
 
 [node name="Thug4" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9773, 0, 5.23564 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5523, 0, -11.3522 )
 
 [node name="Thug5" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.87528, 0, 1.57414 )
-
-[node name="Thug6" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.66453, 0, 6.06196 )
-
-[node name="Thug7" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.25429, 0, -3.24278 )
-
-[node name="Thug8" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.33097, 0, 1.2254 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.3661, 0, -9.37114 )
 
 [node name="Car" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9259, 0, -2.83841 )
+
+[node name="Car2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.92882, 9.53674e-07, 5.32412 )
+
+[node name="Car3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.8159, 9.53674e-07, -3.02599 )
+
+[node name="Car4" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.4071, 0, 4.29597 )
+
+[node name="Car5" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.8051, 0, -3.31174 )
+
+[node name="Car6" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2042, 0, 4.75815 )
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
 

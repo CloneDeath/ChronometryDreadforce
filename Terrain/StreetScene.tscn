@@ -1,0 +1,114 @@
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+
+albedo_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+
+albedo_color = Color( 0.490196, 0.0509804, 0.0509804, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+
+albedo_color = Color( 0.101961, 0.0235294, 0.639216, 1 )
+
+[sub_resource type="SpatialMaterial" id=4]
+
+albedo_color = Color( 0.168627, 0.701961, 0.0901961, 1 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Street" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0 )
+use_collision = true
+width = 30.0
+height = 0.1
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="Sidewalk" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, -3.5 )
+use_collision = true
+width = 30.0
+height = 0.2
+depth = 1.0
+
+[node name="Sidewalk2" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 3.5 )
+use_collision = true
+width = 30.0
+height = 0.2
+depth = 1.0
+
+[node name="Building1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 5, -4.5 )
+use_collision = true
+width = 10.0
+height = 10.0
+depth = 1.0
+material = SubResource( 2 )
+
+[node name="Building2" type="CSGBox" parent="."]
+editor/display_folded = true
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -4.5 )
+use_collision = true
+width = 10.0
+height = 5.0
+depth = 1.0
+material = SubResource( 3 )
+
+[node name="CSGBox" type="CSGBox" parent="Building2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.372658, -1.30314, 0.549231 )
+operation = 2
+depth = 1.31339
+
+[node name="Building3" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 4, -4.5 )
+use_collision = true
+width = 10.0
+height = 8.0
+depth = 1.0
+material = SubResource( 4 )
+
+[node name="CSGBox" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9122, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+
+[node name="CSGBox2" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6622, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+
+[node name="CSGBox3" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.412197, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+
+[node name="CSGBox4" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.837803, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+
+[node name="CSGBox5" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0878, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+
+[node name="CSGBox6" type="CSGBox" parent="Building3"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3378, -2, 0.7 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+

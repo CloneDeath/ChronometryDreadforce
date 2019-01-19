@@ -28,6 +28,7 @@ func execute_movement():
 	var right = Input.is_action_pressed("move_right");
 	var move = Vector3();
 	move.x = -int(left)+int(right);
+	move.y = -1;
 	move.z = -int(up)+int(down);
 	move = move_and_slide(move.normalized() * speed);
 	if (move.length() > 0): facing = move;

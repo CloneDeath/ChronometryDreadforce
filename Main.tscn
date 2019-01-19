@@ -1,15 +1,14 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Enemies/Thug.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Terrain/StreetScene.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Terrain/Car.tscn" type="PackedScene" id=4]
 
 [node name="Main" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0888777, 0 )
+transform = Transform( 0.776103, 0, -0.630606, 0, 1, 0, 0.630606, 0, 0.776103, 0, 0.0888777, 0 )
 
 [node name="Camera2D" type="Camera" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 0.896039, 0.443976, 0, -0.443976, 0.896039, 0.0408807, 3.50498, 5.2286 )
@@ -33,25 +32,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.83996, 0.0413632, -2.40455 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.1508, 0.0413632, 0.362474 )
 
 [node name="Level" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="Spatial" parent="Level" instance=ExtResource( 3 )]
-
-[node name="Car" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.6114, 0.110833, -1.64049 )
-
-[node name="Car2" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.71581, 0.110834, 2.49085 )
-
-[node name="Car3" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.95931, 0.110834, -1.70964 )
-
-[node name="Car4" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.89739, 0.110833, 2.59952 )
-
-[node name="Car5" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.33298, 0.110833, -1.78857 )
-
-[node name="Car6" parent="Level/Spatial" instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.7463, 0.110833, 2.13399 )
 

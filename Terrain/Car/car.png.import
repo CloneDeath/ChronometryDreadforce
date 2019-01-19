@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/car.png-b51fd371ae39092f5d0ba0afc34b8013.stex"
+path="res://.import/car.png-91006febf6b757b49bf6f783a5303c4b.stex"
 
 [deps]
 
-source_file="res://Terrain/car.png"
-dest_files=[ "res://.import/car.png-b51fd371ae39092f5d0ba0afc34b8013.stex" ]
+source_file="res://Terrain/Car/car.png"
+dest_files=[ "res://.import/car.png-91006febf6b757b49bf6f783a5303c4b.stex" ]
 
 [params]
 

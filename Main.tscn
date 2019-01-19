@@ -8,7 +8,7 @@
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18493, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.18493, 12 )
 
 [node name="Camera2D" type="Camera" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 0.896039, 0.443976, 0, -0.443976, 0.896039, 0.0408807, 3.50498, 5.2286 )
@@ -17,22 +17,22 @@ current = true
 [node name="Enemies" type="Spatial" parent="."]
 
 [node name="Thug" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.9136, 0.936631, 2.89947 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.91361, 0.936631, -2.10053 )
 
 [node name="Thug2" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.0099, 0.936631, 4.20322 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9901, 0.936631, -1.79678 )
 
 [node name="Thug3" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.98045, 0.936631, -5.97418 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.01955, 0.936631, 3.02582 )
 
 [node name="Thug4" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.66891, 0.936631, -7.232 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.66891, 0.936631, -7.232 )
 
 [node name="Thug5" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.0531, 0.936631, -5.96268 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0531387, 0.936631, -5.96268 )
 
 [node name="Level" type="Spatial" parent="."]
 
 [node name="Spatial" parent="Level" instance=ExtResource( 3 )]
-transform = Transform( 0.851613, 0, 0.524171, 0, 1, 0, -0.524171, 0, 0.851613, 0, 0, 0 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
 

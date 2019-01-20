@@ -7,12 +7,13 @@
 [node name="Main" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.18493, 12 )
 
 [node name="Camera2D" type="Camera" parent="Player"]
-transform = Transform( 1, 0, 0, 0, 0.896039, 0.443976, 0, -0.443976, 0.896039, 0.0408807, 3.50498, 5.2286 )
+transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 4, 5 )
 current = true
+size = 15.0
+near = 0.01
 
 [node name="Enemies" type="Spatial" parent="."]
 

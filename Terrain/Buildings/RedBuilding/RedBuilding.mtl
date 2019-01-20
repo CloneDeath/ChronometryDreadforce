@@ -2,13 +2,13 @@
 
 newmtl border (Instance)
 Ka 0.000000 0.000000 0.000000 
-Kd 0.3500078 0.08155521 0 
+Kd 0.35 0.082 0 
 Ks 0.330000 0.330000 0.330000 
 map_Kd Textures/border (Instance).png
 
 newmtl bricks (Instance)
 Ka 0.000000 0.000000 0.000000 
-Kd 0.8100125 0.1634236 0 
+Kd 0.81 0.163 0 
 Ks 0.330000 0.330000 0.330000 
 map_Kd Textures/bricks (Instance).png
 

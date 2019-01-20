@@ -1,15 +1,13 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Enemies/Thug.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Terrain/StreetScene.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Terrain/Safe.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Levels/Level01.tscn" type="PackedScene" id=2]
 
 [node name="Main" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.18493, 16 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1.18493, 9 )
 
 [node name="Camera2D" type="Camera" parent="Player"]
 transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 4, 5 )
@@ -17,33 +15,5 @@ current = true
 size = 15.0
 near = 0.01
 
-[node name="Enemies" type="Spatial" parent="."]
-
-[node name="Thug" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08639, 0.936631, 7.89947 )
-speed = 1.2
-
-[node name="Thug2" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0099, 0.936631, 3.20322 )
-speed = 1.2
-
-[node name="Thug3" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.98045, 0.936631, 1.02582 )
-speed = 1.2
-
-[node name="Thug4" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.66891, 0.936631, -7.232 )
-speed = 1.2
-
-[node name="Thug5" parent="Enemies" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0531387, 0.936631, -5.96268 )
-speed = 1.2
-
-[node name="Level" type="Spatial" parent="."]
-
-[node name="Spatial" parent="Level" instance=ExtResource( 3 )]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
-
-[node name="Safe" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, -14 )
+[node name="BaseLevel" parent="." instance=ExtResource( 2 )]
 

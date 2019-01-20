@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/RedBuilding.obj-81f0d4cca80b68f8e91e6caefd789fc5.mesh"
+
+[deps]
+
+files=[ "res://.import/RedBuilding.obj-81f0d4cca80b68f8e91e6caefd789fc5.mesh" ]
+
+source_file="res://Terrain/Buildings/RedBuilding/RedBuilding.obj"
+dest_files=[ "res://.import/RedBuilding.obj-81f0d4cca80b68f8e91e6caefd789fc5.mesh", "res://.import/RedBuilding.obj-81f0d4cca80b68f8e91e6caefd789fc5.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

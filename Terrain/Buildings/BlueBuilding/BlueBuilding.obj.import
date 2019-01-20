@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/BlueBuilding.obj-a86ea1391122b72d9c4b07b2023357f2.mesh"
+
+[deps]
+
+files=[ "res://.import/BlueBuilding.obj-a86ea1391122b72d9c4b07b2023357f2.mesh" ]
+
+source_file="res://Terrain/Buildings/BlueBuilding/BlueBuilding.obj"
+dest_files=[ "res://.import/BlueBuilding.obj-a86ea1391122b72d9c4b07b2023357f2.mesh", "res://.import/BlueBuilding.obj-a86ea1391122b72d9c4b07b2023357f2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

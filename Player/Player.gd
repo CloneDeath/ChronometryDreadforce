@@ -15,7 +15,6 @@ func _process(_delta):
 
 func _physics_process(delta):
 	execute_gravity(delta);
-	if (dead): return;
 	execute_movement();
 	execute_shooting();
 
@@ -28,6 +27,7 @@ func execute_gravity(delta):
 	dp = move_and_slide(dp, Vector3(0, 1, 0));
 
 func execute_shooting():
+	if (dead): return;
 	if Input.is_action_just_pressed("shoot"):
 		var bullet = Bullet.instance();
 		bullet.source = self;
@@ -40,6 +40,7 @@ func execute_movement():
 	if (move.length() > 0): facing = move;
 
 func get_movement_vector():
+	if (dead): return Vector3(0, 0, 0);
 	var up = Input.is_action_pressed("move_up");
 	var down = Input.is_action_pressed("move_down");
 	var left = Input.is_action_pressed("move_left");

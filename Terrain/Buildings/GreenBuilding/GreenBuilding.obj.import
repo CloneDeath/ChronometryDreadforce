@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/GreenBuilding.obj-1171f85254c298fd1a9d69a16961de8d.mesh"
+
+[deps]
+
+files=[ "res://.import/GreenBuilding.obj-1171f85254c298fd1a9d69a16961de8d.mesh" ]
+
+source_file="res://Terrain/Buildings/GreenBuilding/GreenBuilding.obj"
+dest_files=[ "res://.import/GreenBuilding.obj-1171f85254c298fd1a9d69a16961de8d.mesh", "res://.import/GreenBuilding.obj-1171f85254c298fd1a9d69a16961de8d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

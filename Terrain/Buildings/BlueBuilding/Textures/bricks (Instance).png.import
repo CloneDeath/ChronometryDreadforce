@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/_defaultMat (Instance).png-1d026b4b624016b95bf2782a258f07a6.stex"
+path="res://.import/bricks (Instance).png-36db116ffae3d69452532505d1495cd9.stex"
 
 [deps]
 
-source_file="res://Terrain/Roads/Sidewalk/Textures/_defaultMat (Instance).png"
-dest_files=[ "res://.import/_defaultMat (Instance).png-1d026b4b624016b95bf2782a258f07a6.stex" ]
+source_file="res://Terrain/Buildings/BlueBuilding/Textures/bricks (Instance).png"
+dest_files=[ "res://.import/bricks (Instance).png-36db116ffae3d69452532505d1495cd9.stex" ]
 
 [params]
 

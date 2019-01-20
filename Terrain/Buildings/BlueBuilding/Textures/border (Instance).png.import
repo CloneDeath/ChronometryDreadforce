@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/_defaultMat (Instance).png-1d026b4b624016b95bf2782a258f07a6.stex"
+path="res://.import/border (Instance).png-0366abce20f7e77bf244144d065bcd61.stex"
 
 [deps]
 
-source_file="res://Terrain/Roads/Sidewalk/Textures/_defaultMat (Instance).png"
-dest_files=[ "res://.import/_defaultMat (Instance).png-1d026b4b624016b95bf2782a258f07a6.stex" ]
+source_file="res://Terrain/Buildings/BlueBuilding/Textures/border (Instance).png"
+dest_files=[ "res://.import/border (Instance).png-0366abce20f7e77bf244144d065bcd61.stex" ]
 
 [params]
 

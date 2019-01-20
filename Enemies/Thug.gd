@@ -1,12 +1,12 @@
 extends KinematicBody
 
 var target = null;
-const SPEED = 2.4;
+export var speed = 2.4;
 
 func _physics_process(_delta):
 	if (target == null): return;
 	var dp = target.translation - self.translation;
-	dp = move_and_slide(dp.normalized() * SPEED);
+	dp = move_and_slide(dp.normalized() * speed);
 
 func _process(_delta):
 	if (target == null): return;

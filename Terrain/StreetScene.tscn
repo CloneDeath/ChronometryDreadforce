@@ -129,12 +129,6 @@ transform = Transform( 0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, 0.5, -23.7671, 0
 [node name="Car9" parent="." instance=ExtResource( 6 )]
 transform = Transform( 0.0871557, 0, -0.996195, 0, 1, 0, 0.996195, 0, 0.0871557, -22.93, 0.6, -2.6738 )
 
-[node name="Car4" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.8829, 0.6, -1.85677 )
-
-[node name="Car5" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.3741, 0.6, -1.77541 )
-
 [node name="Car6" parent="." instance=ExtResource( 6 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.0204, 0.6, -1.69405 )
 
